@@ -9,6 +9,5 @@ steps:
       - build
     - name: "gcr.io/cloud-builders/gcloud"
       args: ["app", "deploy"]
-      entrypoint: bash
 options:
     logging: CLOUD_LOGGING_ONLY
