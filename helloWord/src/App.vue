@@ -21,7 +21,7 @@
         <router-view></router-view>
       </section>
       <footer>
-        <span>footer</span>
+        <span>© 2023 Moisés Iglesias</span>
       </footer>
     </div>
   </div>
@@ -129,5 +129,10 @@ footer{
 }
 footer span{
   margin: 40px auto;
+}
+@media screen and (max-width: 1370px) {
+  #app{
+    font-size: 1.2em;
+  }    
 }
 </style>

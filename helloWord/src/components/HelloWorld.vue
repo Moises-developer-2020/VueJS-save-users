@@ -20,7 +20,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   .effect {
-    margin: 200px auto;
+    margin: 0px auto;
     perspective: 1000px;
     perspective-origin: 50% -200px;
   }

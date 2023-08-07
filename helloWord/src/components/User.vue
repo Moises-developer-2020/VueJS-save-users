@@ -74,11 +74,15 @@
     max-height: 100%;
     max-width: 80%;
     max-height: 80%;
-    box-shadow: 0 0 20px 5px #00000066;
+    box-shadow: 0 0 49px 11px #00000066;
     border-radius: 15px;
     width: 80%;
     overflow: auto;
     height: 80%;
+    background: rgb(0 0 0 / 5%);
+  }
+  form{
+    margin-top: 20px;
   }
   form input,
   form button{
@@ -107,6 +111,7 @@
     transition: 0.2s;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #ffffff1a;
   }
   .user-data:hover{
     background: rgba(153, 0, 255, 0.151);
