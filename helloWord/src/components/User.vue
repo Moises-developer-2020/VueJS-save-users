@@ -21,23 +21,7 @@
   name: 'users',
   data() {
     return {
-      users: [
-        {
-          name: 'joe',
-          email: 'joe@mail.com',
-          contacted: false
-        },
-        {
-          name: 'ryan',
-          email: 'ryan@mail.com',
-          contacted: false
-        },
-        {
-          name: 'donna',
-          email: 'donna@mail.com',
-          contacted: true
-        }
-      ],
+      users: [],
       newUser: {},
       indexs:0
     }
@@ -70,6 +54,7 @@
 
 <style lang="css">
   .users{
+    position: relative;
     max-width: 100%;
     max-height: 100%;
     max-width: 80%;
@@ -77,12 +62,16 @@
     box-shadow: 0 0 49px 11px #00000066;
     border-radius: 15px;
     width: 80%;
-    overflow: auto;
+    overflow: hidden;
     height: 80%;
     background: rgb(0 0 0 / 5%);
   }
   form{
+    position: absolute;
+    height: 100px;
     margin-top: 20px;
+    margin: 20px auto;
+    width: 100%;
   }
   form input,
   form button{
@@ -99,8 +88,12 @@
   .users-list{
     border-top: 1px solid #ffffff63;
     text-align: center;
-    margin: auto;
+    margin: 100px auto;
     width: 95%;
+    position: absolute;
+    left: 2.5%;
+    height: calc(100% - 100px);
+    overflow: auto;
   }
   .users-list span{
     display: block;

@@ -115,7 +115,7 @@ nav span a{
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: auto;
+  overflow: hidden;
 }
 footer{
   position: absolute;
