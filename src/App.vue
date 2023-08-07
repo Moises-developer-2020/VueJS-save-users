@@ -8,7 +8,7 @@
         </span>
         <span>
           <router-link to="/">
-              Home
+              Home 1
           </router-link>
         </span>
         <span>
